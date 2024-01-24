@@ -1,0 +1,53 @@
+@media screen and (max-width: 1000px){
+.container{
+
+    flex-direction: column;
+
+}
+
+.texts{
+
+    margin: 40px 0px;
+
+}
+
+.texts h1{
+
+    font-size: 2.5em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.texts h2{
+
+    text-align: center;
+}
+.texts p{
+
+    text-align: center;
+}
+form{
+
+    margin: 16px 0px;
+} 
+}
+
+
+@media screen and (max-width: 600px){
+.texts{
+
+    font-size: 1.8em;
+}
+.texts h1{
+
+font-size: 2.5em;
+}
+.texts h2{
+
+    font-size: 1.2em;
+}
+.texts p{
+
+    font-size: 0.8em;
+}
+    
+}

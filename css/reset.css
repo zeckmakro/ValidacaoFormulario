@@ -1,0 +1,47 @@
+:root {
+--verdeMusco: #2E8B57;
+--verdeCLaro:#98FB98;
+--cinzaClaro: #778899;
+--AzulAqua: #7FFFD4;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+
+    
+    
+}
+
+body{
+    background-color:var(--cinzaClaro);
+   background-image: url('../img/barber.jpg');
+   
+      
+}
+
+h1, span p{
+    
+    color: var(--verdeMusco);
+}
+
+p{
+     border-right:3px;
+     font-size: 1.2em;
+
+}
+
+
+
+input, button{
+
+    width: 100%;
+    height: 60px;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600px;
+    transition: 0.16s ease-out;
+}
